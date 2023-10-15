@@ -1,0 +1,16 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+htm,body{
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+}
+.form-control:focus,
+.form-select:focus,
+.was-validated .form-control:valid:focus,
+.was-validated .form-control:invalid:focus {
+    box-shadow: none;
+}
